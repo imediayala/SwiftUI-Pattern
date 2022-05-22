@@ -1,5 +1,5 @@
 //
-//  ContentView-ViewModel.swift
+//  AlbumListView-ViewModel.swift
 //  SwiftUI-Pattern
 //
 //  Created by Daniel Ayala on 22/5/22.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-class ContentViewModel: BaseViewModelProtocol, ObservableObject {
+class AlbumListViewModel: BaseViewModelProtocol, ObservableObject {
     @MainActor
     @Published var title = ""
     @Published var isNavigationLinkActive: Bool = false

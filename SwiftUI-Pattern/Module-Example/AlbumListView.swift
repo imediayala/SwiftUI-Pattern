@@ -1,5 +1,5 @@
 //
-//  ContentView.swift
+//  AlbumListView.swift
 //  SwiftUI-Pattern
 //
 //  Created by Daniel Ayala on 22/5/22.
@@ -7,9 +7,9 @@
 
 import SwiftUI
 
-struct ContentView: View {
+struct AlbumListView: View {
     
-    @ObservedObject private var viewModel = ContentViewModel()
+    @ObservedObject private var viewModel = AlbumListViewModel()
 
     var body: some View {
         VStack {
@@ -30,8 +30,8 @@ struct ContentView: View {
 }
 
 
-struct ContentView_Previews: PreviewProvider {
+struct AlbumListView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        AlbumListView()
     }
 }
